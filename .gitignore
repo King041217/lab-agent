@@ -1,0 +1,20 @@
+# VSCode 全局配置
+.vscode/
+
+# 后端
+backend/.env
+backend/venv/
+backend/__pycache__/
+backend/*.pyc
+backend/*.cpython-*.pyc
+backend/data/
+backend/uploads/
+
+# 前端
+frontend/node_modules/
+frontend/dist/
+frontend/.env.development.local
+
+# 通用
+*.log
+.DS_Store
